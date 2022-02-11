@@ -1,0 +1,23 @@
+:root {
+  --bg: #fafafa;
+  --text-color: #444;
+}
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 2.5vmin;
+  overflow: hidden;
+  user-select: none;
+}
+
+body {
+  background: var(--bg) none;
+  color: var(--text-color);
+  padding: 0;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+}
